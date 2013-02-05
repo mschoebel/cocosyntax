@@ -1,0 +1,16 @@
+{
+	"name": "Coco/R",
+	"scopeName": "source.cocor",
+
+	"fileTypes": ["atg"],
+
+	"patterns": [
+		{
+			"match": "COMPILER|CHARACTERS|TOKENS|PRODUCTIONS|END",
+			"name": "keyword.source.cocor",
+			"comment": "Keywords"
+		}
+	],
+
+	"uuid": "e1a5da4e-ed93-447d-b111-a70a1ebe3071"
+}
