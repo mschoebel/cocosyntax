@@ -1,0 +1,62 @@
+
+{
+	"name": "Coco/R C++",
+	"scopeName": "source.cocor",
+
+	"fileTypes": ["atg"],
+
+	"patterns":
+	[
+		{
+			"match": "\\b(ANY|CHARACTERS|COMMENTS|COMPILER|CONTEXT|END|FROM|IF|IGNORE|IGNORECASE|NESTED|out|PRAGMAS|PRODUCTIONS|SYNC|TOKENS|TO|WEAK)\\b",
+			"name": "keyword.source.cocor"
+		},
+		{
+			"match": "\"(\\\\.|[^\\\\\"])*\"",
+			"name": "string.quoted.double.source.cocor"
+		},
+		{
+			"match": "'(\\\\.|[^\\\\\"])*?'",
+			"name": "constant.character.source.cocor"
+		},
+		{
+			"begin": "\\(\\.",
+			"end": "\\.\\)",
+			"name": "source.cocor",
+			"patterns":
+			[
+				{
+					"include": "source.c++"
+				}
+			]
+		},
+		{
+			"begin": "<",
+			"end": ">",
+			"name": "source.cocor",
+			"patterns":
+			[
+				{
+					"match": ".*?",
+					"name": "variable.parameter.source.cocor"
+				}
+			]
+		},
+		{
+			"match": "=|\\(|\\)|\\{|\\}|\\[|\\]|\\|",
+			"name": "constant.language.source.cocor"
+		},
+		{
+			"begin": "//",
+			"end": "$\\n",
+			"name": "comment.line.double-dash.source.cocor"
+		},
+		{
+			"begin": "/\\*",
+			"end": "\\*/",
+			"name": "comment.block.source.cocor"
+		}
+	],
+
+	"uuid": "d98cca1d-28b9-448d-8098-591f807a93c8"
+}
