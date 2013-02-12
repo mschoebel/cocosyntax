@@ -1,0 +1,5 @@
+
+{
+    "cmd": ["coco", "$file"],
+    "selector": "source.cocor"
+}
