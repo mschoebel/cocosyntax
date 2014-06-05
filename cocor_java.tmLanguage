@@ -12,7 +12,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(ANY|CHARACTERS|COMMENTS|COMPILER|CONTEXT|END|FROM|IF|IGNORE|IGNORECASE|NESTED|out|PRAGMAS|PRODUCTIONS|SYNC|TOKENS|TO|WEAK)\b</string>
+			<string>\b(ANY|CHARACTERS|COMMENTS|COMPILER|CONTEXT|END|FROM|IF|IGNORE|IGNORECASE|NESTED|PRAGMAS|PRODUCTIONS|SYNC|TOKENS|TO|WEAK)\b</string>
 			<key>name</key>
 			<string>keyword.source.cocor</string>
 		</dict>
